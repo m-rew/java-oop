@@ -1,5 +1,7 @@
 package lecture01.Ex004;
 
+import java.util.Arrays;
+
 public class Program {
     public static void main(String[] args) {
         // #region Robot1 demo

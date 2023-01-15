@@ -11,5 +11,7 @@ public class Program {
         Priest hero3 = new Priest();
         System.out.println(hero3.getInfo());
 
+
+
     }
 }

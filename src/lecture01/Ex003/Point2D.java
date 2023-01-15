@@ -40,7 +40,7 @@ public class Point2D {
         this.y = value;
     }
 
-    
+
     private String getInfo(){
         return String.format("x: %d; y: %d", x, y);
     }
