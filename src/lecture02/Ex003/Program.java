@@ -1,11 +1,7 @@
 package lecture02.Ex003;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import Lesson_08.Ex003.alliance.*;
-import Lesson_08.Ex003.*;
+import lecture02.Ex003.alliance.*;
+import lecture02.Ex003.*;
 
 public class Program {
     public static void main(String[] args) {
