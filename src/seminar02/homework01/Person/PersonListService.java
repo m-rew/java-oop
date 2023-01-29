@@ -1,4 +1,4 @@
-package seminar02.homework02.Person;
+package seminar02.homework01.Person;
 
 public interface PersonListService {
     void addPerson(Person person);

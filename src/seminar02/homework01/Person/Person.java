@@ -1,10 +1,9 @@
-package seminar02.homework02.Person;
+package seminar02.homework01.Person;
 
-import seminar02.homework02.Relatives.Relative;
+import seminar02.homework01.Relatives.Relative;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public abstract class Person implements PersonService {
     private String name;

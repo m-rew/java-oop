@@ -1,20 +1,21 @@
 package seminar02.homework02;
 
-import seminar02.homework02.GenTree.GenTree;
-import seminar02.homework02.Person.Man;
-import seminar02.homework02.Person.Person;
+import seminar02.homework02.Animal.Cat;
+import seminar02.homework02.Animal.Hamster;
+import seminar02.homework02.Human.Human;
 
 public class Program {
     public static void main(String[] args) {
-        GenTree tree = new GenTree();
+        Human human1 = new Human("Иван");
 
-        tree.setMan("Андрей", "Футбол");
-        tree.setWoman("Надежда", "Розы");
-        tree.setMan("Иван", "Тенис");
+        Cat cat = new Cat("Рыжик");
+        Hamster hamster = new Hamster("Хома");
 
-        tree.setRelative(tree.getPersonObj(0), "Жена", tree.getPersonObj(1));
-        tree.setRelative(tree.getPersonObj(0), "Друзья", tree.getPersonObj(2), tree.getPersonObj(1));
+        human1.callAnimal(cat, "кис-кис");
+        human1.petAnimal(cat);
 
-        System.out.println(tree.getPersonTree(0));
+        human1.callAnimal(hamster, "фр-фр-фр");
+        human1.petAnimal(hamster);
+
     }
 }
