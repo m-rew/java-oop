@@ -4,18 +4,34 @@ import seminar3.homework02.Animal.Cat;
 import seminar3.homework02.Animal.Hamster;
 import seminar3.homework02.Human.Human;
 
+import java.util.Scanner;
+import java.util.function.Supplier;
+
 public class Program {
     public static void main(String[] args) {
+        Supplier<Cat> catFactory = ()->{
+            Scanner in = new Scanner(System.in);
+            System.out.println("Введите имя котика: ");
+            String name = in.nextLine();
+            return new Cat(name);
+        };
+
+        Supplier<Hamster> hamsterFactory = ()->{
+            Scanner in = new Scanner(System.in);
+            System.out.println("Введите имя хомячка: ");
+            String name = in.nextLine();
+            return new Hamster(name);
+        };
+
         Human human1 = new Human("Иван");
 
-        Cat cat = new Cat("Рыжик");
-        Hamster hamster = new Hamster("Хома");
+        Cat cat = catFactory.get();
+        Hamster hamster = hamsterFactory.get();
 
         human1.callAnimal(cat, "кис-кис");
         human1.petAnimal(cat);
 
         human1.callAnimal(hamster, "фр-фр-фр");
         human1.petAnimal(hamster);
-
     }
 }

@@ -13,6 +13,6 @@ public class Program {
         tree.setRelative(tree.getPersonObj(0), "Жена", tree.getPersonObj(1));
         tree.setRelative(tree.getPersonObj(0), "Друзья", tree.getPersonObj(2), tree.getPersonObj(1));
 
-        System.out.println(tree.getPersonTree(0));
+        System.out.println(tree.getPersonObj(6));
     }
 }

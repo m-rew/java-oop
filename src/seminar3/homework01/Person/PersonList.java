@@ -3,6 +3,7 @@ package seminar3.homework01.Person;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 public class PersonList implements PersonListService {
     private List<Person> personList;
@@ -41,7 +42,8 @@ public class PersonList implements PersonListService {
         try {
             return this.personList.get(index);
         } catch (Exception e) {
-            System.out.println("Person по индексу " + index + " не был найден");
+            Function<Integer, String> convert = x -> "Person по индексу " + String.valueOf(x) + " не был найден";
+            System.out.println(convert.apply(index));
             return null;
         }
     }
