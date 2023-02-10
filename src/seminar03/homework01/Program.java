@@ -1,6 +1,6 @@
-package seminar3.homework01;
+package seminar03.homework01;
 
-import seminar3.homework01.GenTree.GenTree;
+import seminar03.homework01.GenTree.GenTree;
 
 public class Program {
     public static void main(String[] args) {

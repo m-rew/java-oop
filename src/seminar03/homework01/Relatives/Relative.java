@@ -1,7 +1,7 @@
-package seminar3.homework01.Relatives;
+package seminar03.homework01.Relatives;
 
-import seminar3.homework01.Person.Person;
-import seminar3.homework01.Person.PersonList;
+import seminar03.homework01.Person.Person;
+import seminar03.homework01.Person.PersonList;
 
 public class Relative implements RelativeService {
     private PersonList personList;

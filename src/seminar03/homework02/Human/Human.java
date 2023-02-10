@@ -1,6 +1,6 @@
-package seminar3.homework02.Human;
+package seminar03.homework02.Human;
 
-import seminar3.homework02.Animal.Animal;
+import seminar03.homework02.Animal.Animal;
 
 public class Human implements HumanService {
     private String name;

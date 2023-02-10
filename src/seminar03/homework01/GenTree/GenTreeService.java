@@ -1,6 +1,6 @@
-package seminar3.homework01.GenTree;
+package seminar03.homework01.GenTree;
 
-import seminar3.homework01.Person.Person;
+import seminar03.homework01.Person.Person;
 
 public interface GenTreeService {
     void setMan(String name, String televisionPrograms);

@@ -1,9 +1,9 @@
-package seminar3.homework01.GenTree;
+package seminar03.homework01.GenTree;
 
-import seminar3.homework01.Person.Man;
-import seminar3.homework01.Person.Person;
-import seminar3.homework01.Person.PersonList;
-import seminar3.homework01.Person.Woman;
+import seminar03.homework01.Person.Man;
+import seminar03.homework01.Person.Person;
+import seminar03.homework01.Person.PersonList;
+import seminar03.homework01.Person.Woman;
 
 public class GenTree implements GenTreeService {
     private PersonList personList;

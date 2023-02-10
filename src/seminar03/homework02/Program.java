@@ -1,8 +1,8 @@
-package seminar3.homework02;
+package seminar03.homework02;
 
-import seminar3.homework02.Animal.Cat;
-import seminar3.homework02.Animal.Hamster;
-import seminar3.homework02.Human.Human;
+import seminar03.homework02.Animal.Cat;
+import seminar03.homework02.Animal.Hamster;
+import seminar03.homework02.Human.Human;
 
 import java.util.Scanner;
 import java.util.function.Supplier;

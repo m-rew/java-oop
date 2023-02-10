@@ -1,6 +1,6 @@
-package seminar3.homework01.Person;
+package seminar03.homework01.Person;
 
-import seminar3.homework01.Relatives.Relative;
+import seminar03.homework01.Relatives.Relative;
 
 import java.util.ArrayList;
 import java.util.List;

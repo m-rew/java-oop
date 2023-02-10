@@ -1,4 +1,4 @@
-package seminar3.homework02.Animal;
+package seminar03.homework02.Animal;
 
 public class Cat extends Animal {
     public Cat(String name) {

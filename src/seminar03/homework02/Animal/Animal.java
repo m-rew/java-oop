@@ -1,4 +1,4 @@
-package seminar3.homework02.Animal;
+package seminar03.homework02.Animal;
 
 public abstract class Animal implements AnimalService {
     protected String name;
