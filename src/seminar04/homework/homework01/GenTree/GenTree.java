@@ -1,15 +1,22 @@
 package seminar04.homework.homework01.GenTree;
 
+import seminar01.homework01.GenealogicalTree;
 import seminar04.homework.homework01.Person.Man;
 import seminar04.homework.homework01.Person.Person;
 import seminar04.homework.homework01.Person.PersonList;
 import seminar04.homework.homework01.Person.Woman;
 
-public class GenTree implements GenTreeService {
+public class GenTree<T> implements GenTreeService {
+    private T title;
     private PersonList personList;
 
-    public GenTree() {
+    public GenTree(T title) {
+        this.title = title;
         this.personList = new PersonList();
+    }
+
+    public T getTitle() {
+        return this.title;
     }
 
     /**
